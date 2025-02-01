@@ -33,6 +33,8 @@ function App() {
     return true;
   };
 
+
+  console.log(questions);
   const handleSave = () => {
     if (validate()) {
       const newQuestion = {
